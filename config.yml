@@ -1,4 +1,5 @@
 # Configuração do Site
+
 name: SmarteX
 description: Heveicultura de Precisão
 author: Hans Bonini
@@ -6,6 +7,7 @@ permalink: /:title/
 timezone: America/Sao_Paulo
 
 # contatos do site
+
 email: atendimento@smartex.com.br
 twitter: smartex
 youtube: smartex
@@ -13,4 +15,5 @@ facebook: smartex
 instagram: smartex
 
 # url padrão do site
+
 url: http://smartex.agr.br
