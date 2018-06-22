@@ -1,7 +1,7 @@
 # Configuração do Site
-name: SmarteX
-description: Heveicultura de Precisão
-author: Hans Bonini
+nome: SmarteX
+descricao: Heveicultura de Precisão
+autor: Hans Bonini
 permalink: /:title/
 timezone: America/Sao_Paulo
 
