@@ -1,3 +1,31 @@
-<footer>
-  <span class="rodape">&copy; {{  site.time | date: '%Y' }} {{site.name}} - {{site.description}}</span>
+<!-- Footer -->
+<footer class="white-space-160 main-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="footer-contact">
+          <p class="footer-contact__heading">Social</p>
+          <div>
+            <a href="#{{site.twitter}}" class="footer-contact__social">
+              <i class="fab fa-twitter"></i> {{site.twitter}}
+            </a>
+            <a href="#{{site.facebook}}" class="footer-contact__social">
+              <i class="fab fa-facebook-f"></i> {{site.facebook}}
+            </a>
+            <a href="#{{site.youtube}}" class="footer-contact__social">
+              <i class="fab fa-youtube"></i> {{site.youtube}}
+            </a>
+            <a href="#{{site.instagram}}" class="footer-contact__social">
+              <i class="fab fa-instagram"></i> {{site.instagram}}
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="footer-copyright">
+          <p class="footer-copyright__info">© {{  site.time | date: '%Y' }} {{site.name}} - {{site.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
