@@ -12,9 +12,18 @@ layout: compress
 
     {% include header.html %}
     {% include featured.html %}
-    <section class="conteudo">
-     {{ content }}
-    </section>
+    <!-- Main Content -->
+     <main>
+       <!-- Home -->
+       <section id="second-screen" class="white-space-160">
+         <div class="container">
+           <div class="row home1-about text-center">
+             <div class="col-12 col-md-8 offset-md-2 home1-about__info">
+                {{ content }}
+             </div>
+           </div>
+         </div>
+       </section>
     {% include footer.html %}
 
     <!-- JS -->
