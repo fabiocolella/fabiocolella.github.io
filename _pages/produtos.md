@@ -1,6 +1,7 @@
 ---
 name: produtos
 title: Produtos
+layout: pages
 ---
 
 # Teste
