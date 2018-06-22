@@ -1,6 +1,35 @@
-<header>
-  <h1 class="logo">
-    <a href="{{site.url}}"><span>{{site.name}}</span></a>
-  </h1>
-  <div class="descricao">{{site.description}}</div>
-</header>
+<!-- Header -->
+ <header id="main-nav">
+     <nav class="navbar navbar--light">
+       <div class="container-fluid">
+
+         <!-- Logo -->
+         <div class="navbar__logo">
+           <a href="index.html" class="logo__link">
+             <img src="assets/img/logo.png" alt="{{site.name}}" class="logo-white">
+             <img src="assets/img/logo.png" alt="{{site.name}}" class="logo-dark">
+           </a>
+         </div>
+
+         <!-- Navbar Toggle -->
+         <div class="navbar-toggle">
+           <span class="navbar-toggle__icon"></span>
+         </div>
+
+         <!-- Menu -->
+         <div class="navbar-collapse">
+           <ul class="navbar-nav">
+             <li class="navbar-nav__item">
+               <a href="/" class="navbar-nav__link">Home</a>
+             </li>
+             <li class="navbar-nav__item">
+               <a href="/produtos" class="navbar-nav__link">Produtos</a>
+             </li>
+             <li class="navbar-nav__item">
+               <a href="/contato" class="navbar-nav__link">Contato</a>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </nav>
+   </header>
