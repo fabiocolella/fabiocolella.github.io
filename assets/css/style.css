@@ -3849,6 +3849,7 @@ h6, .h6 {
     display: flex;
     position: relative;
     text-decoration: none;
+    color: white;
 }
 
 .navbar__logo .logo__link .logo-white,
