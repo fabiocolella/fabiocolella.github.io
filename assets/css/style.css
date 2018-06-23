@@ -12170,9 +12170,9 @@ readers do not read off random characters that represent icons */
 }
 
 @media (min-width: 576px) {
-.video-background {
-  visibility: hidden;
-}
+  .video-foreground {
+    display: none;
+  }
 }
 .video-background {
   background: #000;
