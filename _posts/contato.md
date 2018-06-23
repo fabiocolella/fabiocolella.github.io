@@ -1,7 +1,8 @@
 ---
+layout: post
+
 name: contato
 title: Contato
-layout: post
 ---
 
 # Teste
