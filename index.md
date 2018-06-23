@@ -7,6 +7,6 @@ home: true
 
 {% for post in site.posts %}
 <section id="{{post.name}}" class="white-space-160">
-  {{ content }}
+  {{ post.content }}
 </section>
 {% endfor %}
