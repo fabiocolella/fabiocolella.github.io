@@ -1,7 +1,6 @@
 ---
-name: produtos
-title: Produtos
 layout: post
+title: Produtos
 ---
 
 
