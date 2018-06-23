@@ -12169,11 +12169,17 @@ readers do not read off random characters that represent icons */
     opacity: 0.6;
 }
 
+@media (min-width: 576px) {
+.video-background {
+  visibility: hidden;
+}
+}
 .video-background {
   background: #000;
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
+  visibility: visible;
 }
 .video-foreground,
 .video-background iframe {
@@ -12196,11 +12202,4 @@ readers do not read off random characters that represent icons */
 }
 @media (max-aspect-ratio: 16/9) {
   .video-foreground { width: 300%; left: -100%; }
-}
-@media all and (max-width: 600px) {
-.vid-info { width: 50%; padding: .5rem; }
-.vid-info h1 { margin-bottom: .2rem; }
-}
-@media all and (max-width: 500px) {
-.vid-info .acronym { display: none; }
 }
