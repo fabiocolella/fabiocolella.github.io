@@ -1,7 +1,7 @@
 ---
 name: roi
 title: ROI
-layout: pages
+layout: post
 ---
 
 # Teste

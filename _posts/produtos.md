@@ -1,7 +1,7 @@
 ---
 name: produtos
 title: Produtos
-layout: pages
+layout: post
 ---
 
 # Teste
