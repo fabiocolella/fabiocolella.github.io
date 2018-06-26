@@ -12169,17 +12169,11 @@ readers do not read off random characters that represent icons */
     opacity: 0.6;
 }
 
-@media (min-width: 576px) {
-  .video-foreground {
-    display: none;
-  }
-}
 .video-background {
   background: #000;
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
-  visibility: visible;
 }
 .video-foreground,
 .video-background iframe {
