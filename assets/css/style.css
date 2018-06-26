@@ -12176,7 +12176,7 @@ readers do not read off random characters that represent icons */
   z-index: -99;
 }
 .video-foreground,
-.video-background iframe {
+.video-background video {
   position: absolute;
   top: 0;
   left: 0;
