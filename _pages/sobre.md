@@ -1,7 +1,6 @@
 ---
-layout: post
-name: contato
-title: Contato
+name: sobre
+title: Conheça
 ---
 
 # Teste
