@@ -83,21 +83,39 @@ layout: compress
         </section>
 
         <!-- Pagina de Contato -->
-        {% assign block = site.pages | where: 'name', 'contato.md' | first %}
-        <section id="{{ block.name | remove: '.md' }}" class="white-space-160">
+        <section id="contato" class="white-space-160">
           <div class="container">
-            <div class="row home1-about text-center">
-              <div class="col-12 col-md-8 offset-md-2 home1-about__info">
-                <h1 class="section__heading">{{ block.title }}</h1>
-                <div>
-                  <p class="home1-about__desc big-text text-dark">
-                     {{ block.content | markdownify }}
-                  </p>
+            <div class="row text-center">
+              <div class="col-12 col-md-8 offset-md-2">
+                <h1 class="section__heading">Contato</h1>
+                <form action="https://docs.google.com/forms/d/e/1FAIpQLScbLZZN3dWhDDTD9kVCsIcWq2Di_sa1c3Od-i-Iw-umGu3igw/formResponse" method="post">
+                <div class="contact-form">
+                  <div class="contact-form__input">
+                    <input type="text" name="emailAddress" placeholder="Endereço de Email *" required="required" />
+                  </div>
+                  <div class="contact-form__input">
+                    <input type="text" name="entry.1935112643" placeholder="Nome Completo *" required="required" />
+                  </div>
+                  <div class="contact-form__input">
+                    <input type="text" name="entry.513347068" placeholder="Telefone *" required="required" />
+                  </div>
+                  <p class="text-center text-primary"><strong>Selecione abaixo o seu Perfil *</strong></p>
+                  <div class="contact-form__input">
+                    <label class="radio-inline"><input type="radio" name="entry.871797589" value="Heveicultor">Heveicultor</label>
+                    <label class="radio-inline"><input type="radio" name="entry.871797589" value="Pesquisador">Pesquisador</label>
+                    <label class="radio-inline"><input type="radio" name="entry.871797589" value="Investidor">Investidor </label>
+                    <label class="radio-inline"><input type="radio" name="entry.871797589" value="Outro">Outro      </label>
+                  </div>
+                  <div class="contact-form__input">
+                    <textarea name="entry.2066332733" placeholder="Mensagem *" required="required"></textarea>
+                  </div>
+                  <button class="button button-primary" type="submit">Enviar Mensagem</button>
                 </div>
+              </form>
               </div>
             </div>
           </div>
-      </section>
+        </section>
 
     </main>
     {% include footer.html %}
