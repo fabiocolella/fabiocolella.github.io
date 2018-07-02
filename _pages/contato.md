@@ -1,4 +1,0 @@
----
-name: contato
-title: Contato
----
