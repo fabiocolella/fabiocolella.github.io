@@ -6,6 +6,9 @@ author: Hans Bonini
 permalink: /:title/
 timezone: America/Sao_Paulo
 
+# id do Analytics
+analytics: UA-121709848-1
+
 # contatos do site
 contacts:
   email: atendimento@smartex.com.br
