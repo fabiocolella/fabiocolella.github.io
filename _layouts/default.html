@@ -15,6 +15,13 @@ layout: compress
     <!-- Main Content -->
      <main>
 
+       <!-- Scroll Top -->
+       <div class="scroll-top">
+         <a href="#">
+           <i class="fas fa-angle-up"></i>
+         </a>
+       </div>
+
        <!-- Pagina de Sobre -->
         {% assign block = site.pages | where: 'name', 'sobre.md' | first %}
         <section id="{{ block.name | remove: '.md' }}" class="white-space-160">
