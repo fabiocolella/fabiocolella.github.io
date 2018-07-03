@@ -9,7 +9,7 @@ title: Conheça
 {::options parse_block_html="true" /}
 
 <figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/p4DAHWZQwh0" frameborder="0" allowfullscreen="true" style="width:100%; min-height:300px; height: auto"></iframe>
+  <iframe src="https://www.youtube.com/embed/p4DAHWZQwh0" frameborder="0" allowfullscreen="false" style="width:100%; height: auto"></iframe>
 </figure>
   
 {::options parse_block_html="false" /}
