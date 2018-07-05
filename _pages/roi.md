@@ -1,6 +1,6 @@
 ---
 name: roi
-title: ROI
+title: Retorno de Investimento
 ---
 
 ![ROI 1](./assets/img/roi_01.png){:width="100%" height="auto"}
