@@ -1,6 +1,6 @@
 ---
 name: vantagens-e-beneficios
-title: Vantagens e Benefícios
+title: Benefícios
 ---
 
 ![Produtividade](./assets/img/beneficio_01.png){:width="100%" height="auto"}
