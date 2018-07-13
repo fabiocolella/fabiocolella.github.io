@@ -11,4 +11,4 @@ title: Conheça
 </figure>
 {::options parse_block_html="false" /}
 
-Nossa missão é viabilizar um modelo de negócio que transforme a “propriedade do heveicultor” em uma verdadeira unidade produtora de borracha, “o Seringal” em um chão de fábrica e as “sangrias” em um processo automatizado de explotação de látex, de forma prática, sustentável, acessível e muito atraente economicamente.
+Nossa missão é viabilizar um modelo de negócio que transforme a “propriedade do heveicultor” em uma verdadeira unidade produtora de borracha, “o seringal” em um chão de fábrica e as “sangrias” em um processo automatizado de explotação de látex, de forma prática, sustentável, acessível e muito atraente economicamente.
