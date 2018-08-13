@@ -132,6 +132,27 @@ layout: compress
           </div>
         </section>
 
+</main>
+    {% include footer.html %}
+    
+    
+    <!-- JS -->
+    <script src="assets/js/main.js"></script>
+    
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+        $("#aviso").modal({
+          fadeDuration: 1000,
+          fadeDelay: 0.50
+        });
+      });
+    </script>
+
+    
+       
 
   </body>
 </html>
